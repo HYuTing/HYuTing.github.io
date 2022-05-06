@@ -244,7 +244,9 @@
     })
 </script>
 
-<meta name="generator" content="Hexo 5.4.2"></head>
+<meta name="generator" content="Hexo 5.4.2">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
 
 <body>
     <script>
@@ -489,12 +491,43 @@
         </section>
         <section class="post-nav">
             
+                <a class="prev" rel="prev" href="/2022/05/06/test/">test</a>
+            
             
         </section>
 
 
     </article>
 </div>
+
+
+  
+    <div id="gitalk-container"></div>  
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css">  
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script>   -->
+<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script src="//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+
+<div id="gitalk-container"></div>  
+<script type="text/javascript">  
+ var gitalk = new Gitalk({  
+ clientID: 'c359d412668eb217e11e',  
+ clientSecret: 'b1147cbfa3dcf3d0fc615505d4db467c9b994473',  
+ repo: 'hyuting.github.io',  
+ owner: 'HYuTing',  
+ admin: 'HYuTing',  
+ id: location.pathname,  
+ labels: 'Gitalk'.split(',').filter(l => l),  
+ perPage: 10,  
+ pagerDirection: 'last',  
+ createIssueManually: true,  
+ distractionFreeMode: false  
+ })  
+ gitalk.render('gitalk-container')  
+</script>  
 
             </div>
             <footer id="footer" class="footer">
